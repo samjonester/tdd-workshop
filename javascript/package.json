@@ -1,0 +1,14 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Testing With JavaScript",
+  "main": "",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
