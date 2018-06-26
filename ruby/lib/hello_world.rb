@@ -1,9 +1,9 @@
 class HelloWorld
-  def initialize(name)
-    @name = name
+  def initialize(recipient)
+    @recipient = recipient
   end
 
   def greet
-    "Hello, #{@name}"
+    "Hello, #{@recipient.name}"
   end
 end

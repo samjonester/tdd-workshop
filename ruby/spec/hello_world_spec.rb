@@ -1,7 +1,8 @@
 require 'hello_world'
 
 describe HelloWorld do
-  subject { HelloWorld.new("Sam") }
+  let(:recipient) { double("recipient", name: "Sam") }
+  subject { HelloWorld.new(recipient) }
 
   it "should greet Sam" do
     expect(subject.greet).to eq("Hello, Sam")
