@@ -15,5 +15,5 @@ Test Drive the 4 rules. Create something that will accept a cell and it's neighb
 Use Top-Down TDD to design the entrypoint into the game. Use tests to design each unit and break the problem up into focused units. Pick the most interesting and repeat the process.
 
 # Slides
-[PDF](./TDD.pdf)
-[Keynote](./TDD.key)
+- [PDF](./TDD.pdf)
+- [Keynote](./TDD.key)
